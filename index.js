@@ -1,4 +1,4 @@
-const btn = document.getElementsByClassName('btn');
+const btn = document.querySelector('.btn');
 
 btn.addEventListener('click', () => {
   console.log('You clicked me, baby!!!');
