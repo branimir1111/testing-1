@@ -2,3 +2,23 @@
   color: blueviolet;
   text-align: center;
 }
+.btn {
+  margin: 0 calc(50vw - 3rem);
+  width: 6rem;
+  height: 3rem;
+  background-color: cornflowerblue;
+  border: 0px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: azure;
+}
+.heading1 {
+  text-align: center;
+  display: none;
+}
+.noClicked {
+  height: 4rem;
+}
+.clicked {
+  display: block;
+}

@@ -1,5 +1,10 @@
 const btn = document.querySelector('.btn');
+const clicked = document.querySelector('.heading1');
 
 btn.addEventListener('click', () => {
-  console.log('You clicked me, baby!!!');
+  if (clicked.classList.contains('clicked')) {
+    clicked.classList.remove('clicked');
+  } else {
+    clicked.classList.add('clicked');
+  }
 });
