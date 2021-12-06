@@ -22,3 +22,8 @@
 .clicked {
   display: block;
 }
+.container {
+  margin: auto;
+  background-color: aqua;
+  opacity: 0.5;
+}
