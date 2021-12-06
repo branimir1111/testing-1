@@ -3,7 +3,7 @@
   text-align: center;
 }
 .btn {
-  margin: 0 calc(50vw - 3rem);
+  margin: 5px calc(50vw - 3rem);
   width: 6rem;
   height: 3rem;
   background-color: cornflowerblue;
@@ -11,6 +11,12 @@
   border-radius: 5px;
   text-transform: uppercase;
   color: azure;
+  cursor: pointer;
+}
+.btn:hover {
+  color: cornflowerblue;
+  background-color: azure;
+  border: 1px solid cornflowerblue;
 }
 .heading1 {
   text-align: center;
