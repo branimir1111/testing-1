@@ -18,7 +18,9 @@ btnSecond.addEventListener('click', () => {
   }
 });
 
-const btnDecrease = document.querySelector('.increase');
+const btnDecrease = document.querySelector('.decrease');
 const btnReset = document.querySelector('.reset');
 const btnIncrease = document.querySelector('.increase');
 let value = document.querySelector('.value');
+
+btnDecrease.addEventListener('click', () => {});
