@@ -1,3 +1,7 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
 .heading {
   color: blueviolet;
   text-align: center;
@@ -40,4 +44,12 @@
   margin: auto;
   background-color: aqua;
   opacity: 0.5;
+}
+.content-divider {
+  height: 1rem;
+  background-color: aquamarine;
+}
+.btn-counter {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
