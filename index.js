@@ -17,3 +17,8 @@ btnSecond.addEventListener('click', () => {
     clicked.classList.add('clicked');
   }
 });
+
+const btnDecrease = document.querySelector('.increase');
+const btnReset = document.querySelector('.reset');
+const btnIncrease = document.querySelector('.increase');
+let value = document.querySelector('.value');
