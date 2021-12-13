@@ -23,4 +23,11 @@ const btnReset = document.querySelector('.reset');
 const btnIncrease = document.querySelector('.increase');
 let value = document.querySelector('.value');
 
-btnDecrease.addEventListener('click', () => {});
+btnDecrease.addEventListener('click', () => {
+  let val = value.textContent;
+  value.textContent = `${val--}`;
+});
+btnReset.addEventListener('click', () => {
+  const val = 0;
+  value.textContent = 0;
+});
