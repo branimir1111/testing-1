@@ -25,9 +25,13 @@ let value = document.querySelector('.value');
 
 btnDecrease.addEventListener('click', () => {
   let val = value.textContent;
-  value.textContent = `${val--}`;
+  value.textContent = val - 1;
 });
 btnReset.addEventListener('click', () => {
-  const val = 0;
   value.textContent = 0;
+});
+btnIncrease.addEventListener('click', () => {
+  let val = value.textContent;
+  console.log(val);
+  value.textContent = val + 1;
 });
