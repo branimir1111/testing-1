@@ -33,5 +33,5 @@ btnReset.addEventListener('click', () => {
 btnIncrease.addEventListener('click', () => {
   let val = value.textContent;
   console.log(val);
-  value.textContent = val + 1;
+  value.textContent = parseInt(val) + 1;
 });
