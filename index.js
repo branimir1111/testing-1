@@ -26,12 +26,24 @@ let value = document.querySelector('.value');
 btnDecrease.addEventListener('click', () => {
   let val = value.textContent;
   value.textContent = val - 1;
+  coloring(value.textContent);
 });
 btnReset.addEventListener('click', () => {
   value.textContent = 0;
+  coloring(value.textContent);
 });
 btnIncrease.addEventListener('click', () => {
   let val = value.textContent;
-  console.log(val);
   value.textContent = parseInt(val) + 1;
+  coloring(value.textContent);
 });
+
+const coloring = (number) => {
+  if (number > 0) {
+    value.style.color = 'green';
+  } else if (number == 0) {
+    value.style.color = 'black';
+  } else {
+    value.style.color = 'red';
+  }
+};
