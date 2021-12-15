@@ -1,7 +1,14 @@
+const btnZero = document.querySelector('.btnZero');
 const btnFirst = document.querySelector('#btnFirst');
 const btnSecond = document.querySelector('#btnSecond');
 const clicked = document.querySelector('.heading1');
-
+btnZero.addEventListener('click', () => {
+  if (clicked.classList.contains('clicked')) {
+    clicked.classList.remove('clicked');
+  } else {
+    clicked.classList.add('clicked');
+  }
+});
 btnFirst.addEventListener('click', () => {
   if (clicked.classList.contains('clicked')) {
     clicked.classList.remove('clicked');
